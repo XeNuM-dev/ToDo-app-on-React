@@ -58,6 +58,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="title" style ={{color: 'whitesmoke', fontSize: 65, position: 'absolute', fontFamily: 'Montserrat', margin: 15}}>To-Do list</div>
       <div className = "wrapper">
         <input 
         value = {item}
